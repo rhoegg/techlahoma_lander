@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=1040" />
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Techlahoma" %></title>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/css/skel-noscript.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/style-desktop.css">
+	
+    <%= javascript_include_tag  "all" %>
+  </head>
+<body class="homepage">
+<!-- Header Wrapper -->
+	<div id="header-wrapper">
+	<!-- Header -->
+		<div id="header" class="container">
+	<!-- Logo -->
+		<h1 id="logo"><a href="#">Techlahoma</a></h1>
+		<p>Setting Oklahoma's technology foundation</p>
+	<!-- Nav -->
+		<nav id="nav">
+			<ul>
+			<li><a class="fa fa-home" href="/"><span>Home</span></a></li>
+			<li><a href="" class="fa fa-bar-chart-o"><span>What</span></a></li>
+			<li><a class="fa fa-sitemap" href="no-sidebar.html"><span>Things</span></a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+    <%= yield %>
+
+<!-- Footer Wrapper -->
+<div id="footer-wrapper">
+	<!-- Footer -->
+		<div id="footer" class="container">
+			<header>
+				<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+			</header>
+			<div class="row">
+				<div class="6u">
+					<section>
+						<form method="post" action="#">
+							<div class="row half">
+								<div class="6u">
+									<input name="name" placeholder="Name" type="text" class="text" />
+								</div>
+								<div class="6u">
+									<input name="email" placeholder="Email" type="text" class="text" />
+								</div>
+							</div>
+							<div class="row half">
+								<div class="12u">
+									<textarea name="message" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<div class="row half">
+								<div class="12u">
+									<a href="#" class="button button-icon fa fa-envelope">Send Message</a>
+								</div>
+							</div>
+						</form>
+					</section>
+				</div>
+				<div class="6u">
+					<section>
+						<p>We're anxious to here from you and help you with your cause.
+							Things and stuff and way to build it up.</p>
+						<div class="row">
+							<ul class="icons 6u">
+								<li class="fa fa-home">
+									1234 Somewhere Road<br />
+									Norman, Ok 00000<br />
+									USA
+								</li>
+								<li class="fa fa-envelope">
+									<a href="#">info@techlahoma.com</a>
+								</li>
+							</ul>
+							<ul class="icons 6u">
+								<li class="fa fa-twitter">
+									<a href="http://twitter.com/techlahoma">@techlahoma</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+<!-- Copyright -->
+	<div id="copyright" class="container">
+		<ul class="links">
+			<li>&copy; Techlahoma. All rights reserved</li>
+		</ul>
+	</div>
+</div>
+
+  </body>
+</html>

@@ -1045,6 +1045,35 @@
 			text-align: center;
 		}
 
+    #officer-wrapper{
+      text-align:center;
+      
+    }
+
+    #officer-wrapper .inner{
+      padding-top:60px;
+      padding-bottom:50px;
+    }
+
+    #officer-wrapper .inner .officer{
+      width:23%;
+      margin:0 1%;
+      float:left;
+    }
+
+    #officer-wrapper .inner .officer h3{
+      margin-bottom:0;
+    }
+
+    #officer-wrapper .inner h2.board{
+      margin-top:50px;
+    }
+
+    #guideline-wrapper{
+      background:white;
+      padding-top:50px;
+      padding-bottom:50px;
+    }
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/

@@ -1003,7 +1003,7 @@
 	
 		#features-wrapper p
 		{
-			text-align: center;
+			text-align: left;
 		}
 	
 		#features-wrapper .actions
@@ -1073,6 +1073,11 @@
       background:white;
       padding-top:50px;
       padding-bottom:50px;
+      text-align:center;
+    }
+    #guideline-wrapper p{
+      text-align:left;
+      margin: 2em;
     }
 /*********************************************************************************/
 /* Header                                                                        */

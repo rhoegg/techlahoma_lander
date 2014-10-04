@@ -1003,7 +1003,7 @@
 	
 		#features-wrapper p
 		{
-			text-align: center;
+			text-align: left;
 		}
 	
 		#features-wrapper .actions
@@ -1076,7 +1076,7 @@
       text-align:center;
     }
     #guideline-wrapper p{
-      text-align:justify;
+      text-align:left;
       margin: 2em;
     }
 /*********************************************************************************/

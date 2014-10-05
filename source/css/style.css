@@ -1069,6 +1069,10 @@
       margin-top:50px;
     }
 
+    .officer h4 {
+    	margin-bottom: 0;
+    }
+
     #guideline-wrapper{
       background:white;
       padding-top:50px;

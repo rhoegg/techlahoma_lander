@@ -10,11 +10,8 @@ Template is from: http://html5up.net/strongly-typed
 
 To begin editing this site:
 
-clone this site
-```git clone https://github.com/techlahoma/techlahoma_lander.git```
+clone this repo ```git clone https://github.com/techlahoma/techlahoma_lander.git```
 
-install all the ruby gems
-```bundle install```
+install all the ruby gems ```bundle install```
 
-start the server
-```middleman```
+start the server ```middleman```

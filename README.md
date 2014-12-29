@@ -1,6 +1,13 @@
 Getting Started
 ==
-First, fork the [techlahoma_lander](https://github.com/techlahoma/techlahoma_lander) project into https:// github.com/_username_/techlahoma_lander
+First, install Ruby if you haven't already.
+Windows users: we recommend using [Ruby Installer](http://rubyinstaller.org/).
+OS X users: we recommend installing [HomeBrew](http://brew.sh/) to install Ruby.
+```sh
+brew install ruby
+```
+
+Now fork the [techlahoma_lander](https://github.com/techlahoma/techlahoma_lander) project into https:// github.com/_username_/techlahoma_lander
 
 Next, clone your fork and install rubies
 ```sh

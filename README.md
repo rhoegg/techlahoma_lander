@@ -49,4 +49,4 @@ techlahoma_lander> middleman deploy
 
 That's it! :-)
 
-If you have any problems, please reach out to us on Github in issues and comments or on [twitter @techlahoma](twitter.com/techlahoma).
+If you have any problems, please reach out to us on Github in issues and comments or on twitter [@techlahoma](twitter.com/techlahoma).

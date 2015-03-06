@@ -23,6 +23,7 @@
 # with_layout :admin do
 #   page "/admin/*"
 # end
+page "/support.html", :layout => :slim_layout
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {

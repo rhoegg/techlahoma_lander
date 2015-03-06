@@ -1083,6 +1083,17 @@
       text-align:left;
       margin: 2em;
     }
+
+    #supporting-wrapper{
+      background:white;
+      padding-top:50px;
+      padding-bottom:50px;
+      text-align:center;
+    }
+    #supporting-wrapper p{
+      text-align:left;
+      margin: 2em;
+    }
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -1112,6 +1123,12 @@
 			text-transform: uppercase;
 			font-weight: 400;
 			color: #888;
+		}
+
+		#header.slim
+		{
+			padding-top: 3em;
+			padding-bottom: 4em;
 		}
 
 /*********************************************************************************/
@@ -1269,3 +1286,15 @@
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
+
+/*********************************************************************************/
+/* Classes                                                                       */
+/*********************************************************************************/
+
+.headline
+{
+      background:white;
+      padding-top:50px;
+      padding-bottom:50px;
+      text-align:center;
+}

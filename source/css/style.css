@@ -1073,27 +1073,58 @@
     	margin-bottom: 0;
     }
 
-    #guideline-wrapper{
+    #guideline-wrapper {
       background:white;
       padding-top:50px;
       padding-bottom:50px;
       text-align:center;
     }
-    #guideline-wrapper p{
+    #guideline-wrapper p {
       text-align:left;
       margin: 2em;
     }
 
-    #supporting-wrapper{
+    #supporting-wrapper {
       background:white;
       padding-top:50px;
-      padding-bottom:50px;
       text-align:center;
+      position: relative;
+	  border-bottom: solid 2px #e5e5e5;
+	  box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
     }
-    #supporting-wrapper p{
+
+    #supporting-wrapper p {
       text-align:left;
       margin: 2em;
     }
+
+    #stronger {
+    	background: #f0f0f0;
+    	text-align: center;
+    }
+
+    #levels-wrapper {
+    	background:white;
+    }
+
+    #levels-wrapper li.fa {
+    	padding: 10px 30px 10px 30px;
+    }
+
+    #levels-wrapper li header {
+    	margin-left: 1em;
+    }
+
+    #levels-wrapper .donation {
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	font-size: 1.25em;
+    	padding: 0.25em 0.5em 0 0;
+    	color: #AAA;
+    	letter-spacing: 2px;
+    }
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
